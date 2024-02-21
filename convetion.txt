@@ -1,0 +1,10 @@
+Conveciones
+npm i para descargar dependencias
+npm run dev para run the project
+
+
+
+
+Lista de dependencias:
+React con vite
+
