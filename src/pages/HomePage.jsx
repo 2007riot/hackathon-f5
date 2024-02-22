@@ -7,7 +7,10 @@ function HomePage() {
   const backgroundImage =
     'url("https://static.vecteezy.com/system/resources/previews/013/630/282/non_2x/interesting-gradient-design-purple-black-free-photo.jpg")';
   return (
-    <div style={{ backgroundImage, backgroundSize: "cover", height: "100vh" }}>
+    <div
+      className="flex flex-col justify-between max-h-screen"
+      style={{ backgroundImage, backgroundSize: "cover", height: "100vh" }}
+    >
       <Header />
       <CardGroup />
       <Footer />
