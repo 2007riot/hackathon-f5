@@ -4,7 +4,7 @@ import { Button } from "flowbite-react";
 
 function Card({ imgSrc, title, description, price, buttonText }) {
   return (
-    <ProductCard className="max-w-sm bg-black rounded-xl" horizontal>
+    <ProductCard className="w-3/12 bg-black rounded-xl m-2" >
       <div class="flex flex-col">
         <div>
           <img src={imgSrc} alt={title} className="rounded-lg" />

@@ -11,12 +11,16 @@
   },
   "dependencies": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "flowbite-react": "^0.7.2",
 =======
     "autoprefixer": "^10.4.17",
     "flowbite-react": "^0.7.2",
     "postcss": "^8.4.35",
 >>>>>>> 08a70df31320d7c9b64910b79886f203e513ac89
+=======
+    "flowbite-react": "^0.7.2",
+>>>>>>> 0f302b0544b372668dff46ef992bba1baa1535e1
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.1",

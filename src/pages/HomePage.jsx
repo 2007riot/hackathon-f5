@@ -1,24 +1,13 @@
 import React from "react";
-import Card from "../components/Card";
 import Header from '../components/Navbar'
+import CardGroup from "../components/CardGroup";
 
 
 function HomePage() {
   return (
     <>
     <Header/>
-    
-      <div>Hi, HomePage</div>
-      <h1>Explorar</h1>
-      <div>
-        <Card
-          imgSrc="src/assets/img/moon-trip.jpeg"
-          title="Fly me to the moon"
-          description="Soñaste pisar la luna? Lo hacemos realidad! Contrata nuestro paquete Full Experience"
-          price="5.000€"
-          buttonText="Más información"
-        />
-      </div>
+    <CardGroup/>
     </>
   );
 }
