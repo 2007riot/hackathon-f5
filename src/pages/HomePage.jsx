@@ -2,7 +2,11 @@ import React from 'react'
 
 function HomePage() {
   return (
-    <div>HomePage</div>
+    < >
+    <div>Hi, HomePage</div>
+    <h1>Explorar</h1>
+    </>
+    
   )
 }
 
