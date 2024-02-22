@@ -33,11 +33,11 @@ function Header() {
         <Navbar.Toggle  />
       </div>
       <Navbar.Collapse >
-        <Navbar.Link href="#" active>
+        <Navbar.Link href="/home" active>
           Home
         </Navbar.Link>
-        <Navbar.Link to="#">About</Navbar.Link>
-        <Navbar.Link href="#">Contacto</Navbar.Link>
+        <Navbar.Link to="/home">About</Navbar.Link>
+        <Navbar.Link href="/contact">Contacto</Navbar.Link>
       </Navbar.Collapse>
     </Navbar>
   )
