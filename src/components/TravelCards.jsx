@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import travel from "db/travel.js";
+import travel from "../../db/travel";
 
 function TravelCards({ onCardButtonClick }) {
   return (
