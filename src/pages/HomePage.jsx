@@ -1,10 +1,10 @@
+import { Footer } from 'flowbite-react'
 import React from 'react'
 
 function HomePage() {
   return (
     < >
-    <div>Hi, HomePage</div>
-    <h1>Explorar</h1>
+   <Footer/>
     </>
     
   )
