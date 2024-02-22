@@ -20,7 +20,7 @@ const travel = [
         image: "https://historia.nationalgeographic.com.es/medio/2023/01/25/istock_bc3b04ec_930824730_230125152421_1280x853.jpg"
     },
     {
-        id: 2,
+        id: 12,
         type: "virtual",
         title: "Mundo submarino de coral",
         location: "Realidad virtual",
@@ -88,16 +88,6 @@ const travel = [
         description: "Embárcate en un viaje a una colonia espacial del futuro. Descubre cómo sería la vida en el espacio exterior, desde la gravedad artificial hasta la agricultura en invernaderos espaciales, mientras exploras los límites de la frontera final.",
         atractions: ["Gravedad artificial", "Agricultura espacial", "Vistas del cosmos"],
         activities: ["Paseos espaciales simulados", "Participación en experimentos de microgravedad", "Exploración de la estación espacial"],
-        image: "https://historia.nationalgeographic.com.es/medio/2023/01/25/istock_bc3b04ec_930824730_230125152421_1280x853.jpg"
-    },
-    {
-        id: 9,
-        type: "futuro",
-        title: "Simulacro de una Megaciudad Inteligente",
-        location: "Futuro",
-        description: "Visita una megaciudad inteligente del futuro, donde la tecnología y la sostenibilidad se unen para crear un entorno urbano avanzado. Explora edificios inteligentes, sistemas de transporte autónomo y soluciones innovadoras para la energía y los residuos.",
-        atractions: ["Edificios inteligentes", "Transporte autónomo", "Energía renovable"],
-        activities: ["Recorrido en vehículos autónomos", "Visita a parques urbanos tecnológicos", "Participación en proyectos de ciudadanía digital"],
         image: "https://historia.nationalgeographic.com.es/medio/2023/01/25/istock_bc3b04ec_930824730_230125152421_1280x853.jpg"
     }
 ]
