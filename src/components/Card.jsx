@@ -1,9 +1,11 @@
-// Card.jsx
 import React from "react";
 import { Card as ProductCard } from "flowbite-react";
 import { Button } from "flowbite-react";
 
-function Card({ image, title, description, activities }) {
+function Card({ image, title, description, activities, openModal }) {
+  const handleOpenModal = () => {
+    openModal({ image, title, description, activities });
+  };
   return (
     <ProductCard className="w-3/12 bg-black rounded-xl m-2">
       <div>
@@ -26,6 +28,7 @@ function Card({ image, title, description, activities }) {
         </div>
       </div>
       <Button
+        onClick={handleOpenModal}
         className="bg-purple-500 hover:bg-purple-700 text-white font-bold text-2xl py-2 px-4 w-10/12 rounded-xl mx-auto"
         gradientDuoTone="purpleToBlue"
       >
