@@ -8,8 +8,8 @@ function HomePage() {
     'url("https://static.vecteezy.com/system/resources/previews/013/630/282/non_2x/interesting-gradient-design-purple-black-free-photo.jpg")';
   return (
     <div
-      className="flex flex-col justify-between max-h-screen"
-      style={{ backgroundImage, backgroundSize: "cover", height: "100vh" }}
+      className="flex flex-col justify-between"
+      style={{ backgroundImage, backgroundSize: "cover", minHeight: "100vh" }}
     >
       <Header />
       <CardGroup />
