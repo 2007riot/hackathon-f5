@@ -1,13 +1,16 @@
-import React from 'react'
+import Footer from "../components/Footer";
+import React from "react";
+import CardGroup from "../components/CardGroup";
+import Header from "../components/Header";
 
 function HomePage() {
   return (
-    < >
-    <div>Hi, HomePage</div>
-    <h1>Explorar</h1>
+    <>
+      <Header/>
+      <CardGroup />
+      <Footer />
     </>
-    
-  )
+  );
 }
 
-export default HomePage
+export default HomePage;
