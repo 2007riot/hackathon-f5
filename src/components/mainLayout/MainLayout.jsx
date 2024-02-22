@@ -1,8 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom"
 
 
-import React from 'react'
-
 function MainLayout() {
     return (
         <main>
