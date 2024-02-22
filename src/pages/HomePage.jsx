@@ -1,4 +1,4 @@
-import { Footer } from 'flowbite-react'
+import { Footer } from '../components/Footer'
 import React from 'react'
 
 function HomePage() {
