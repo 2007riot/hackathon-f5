@@ -1,18 +1,18 @@
 import React from "react";
 import Card from "./Card";
-import travel from "../../db/travel";
+import travel from "db/travel.js";
 
-function TravelCards() {
+function TravelCards({ onCardButtonClick }) {
   return (
-    <div className="flex flex-row flex-wrap">
-      {travel.map((travelItem) => (
-        // console.log(travelItem)
+    <div>
+      {travel.map((travel, index) => (
         <Card
-          key={travelItem.id}
-          image={travelItem.image}
-          title={travelItem.title}
-          description={travelItem.description}
-          activities={travelItem.activities}
+          key={index}
+          image={travel.image}
+          title={travel.title}
+          description={travel.description}
+          activities={travel.activities}
+          onButtonClick={onCardButtonClick}
         />
       ))}
     </div>
