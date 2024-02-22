@@ -1,15 +1,26 @@
+import React from "react";
 
-import React from 'react'
-
-
-import { Footer, FooterCopyright, FooterIcon, FooterLink, FooterLinkGroup, FooterTitle } from 'flowbite-react';
-import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from 'react-icons/bs';
+import {
+  Footer,
+  FooterCopyright,
+  FooterIcon,
+  FooterLink,
+  FooterLinkGroup,
+  FooterTitle,
+} from "flowbite-react";
+import {
+  BsDribbble,
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsTwitter,
+} from "react-icons/bs";
 
 export function AppFooter() {
   return (
     <Footer bgDark>
       <div className="w-screen absolute inset-x-0 bottom-0 h-16">
-        <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4  hover:text-blue-60">
+        <div className="grid w-full grid-cols-2 gap-8 px-6 py-8 md:grid-cols-4  hover:text-blue-60 bg-indigo-950">
           <div>
             <FooterTitle title="Wanderwell" />
             <FooterLinkGroup col>
@@ -61,5 +72,4 @@ export function AppFooter() {
   );
 }
 
-
-export default AppFooter
+export default AppFooter;
