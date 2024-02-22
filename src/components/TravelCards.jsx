@@ -4,14 +4,14 @@ import travel from "db/travel.js";
 
 function TravelCards({ onCardButtonClick }) {
   return (
-    <div>
-      {travel.map((travel, index) => (
+    <div className="flex flex-row flex-wrap justify-center">
+      {travel.map((travelItem, index) => (
         <Card
           key={index}
-          image={travel.image}
-          title={travel.title}
-          description={travel.description}
-          activities={travel.activities}
+          image={travelItem.image}
+          title={travelItem.title}
+          description={travelItem.description}
+          activities={travelItem.activities}
           onButtonClick={onCardButtonClick}
         />
       ))}
@@ -20,3 +20,4 @@ function TravelCards({ onCardButtonClick }) {
 }
 
 export default TravelCards;
+

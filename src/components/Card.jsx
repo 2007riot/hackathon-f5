@@ -5,27 +5,27 @@ import { Button } from "flowbite-react";
 import ModalView from "./ModalView";
 
 function Card({ image, title, description, activities }) {
-  const [openModal, setOpenModal] = useState(false)
+  const [openModal, setOpenModal] = useState(false);
 
   return (
     <ProductCard className="w-3/12 bg-black rounded-xl m-2">
       <div className="flex flex-col">
         <div>
-          <img src={image} alt={title} className="rounded-lg w-24 h-24" />
+          <img src={image} alt={title} className="rounded-lg w-auto" />
         </div>
-        <div>
-          <h5 className="text-3xl font-bold tracking-tight text-white mt-4 mb-2">
+        <div className="flex flex-col">
+          <h5 className="text-2xl font-bold tracking-tight text-white mt-4 mb-2">
             {title}
           </h5>
           <p className="font-normal text-gray-400 dark:text-gray-400">
             {description}
           </p>
-          <div>
+          <div className="flex flex-row flex-wrap">
             {activities &&
-              activities.map((activity, index) => (
+              activities.map((activity) => (
                 <span
-                  key={index}
-                  className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+                  className="inline-block bg-indigo-950 rounded-lg px-3 py-1 text-xs font-semibold text-white mr-2 mb-2"
+                  key={activity}
                 >
                   {activity}
                 </span>
@@ -40,7 +40,14 @@ function Card({ image, title, description, activities }) {
       >
         Ver más
       </Button>
-      {openModal && <ModalView title= {title} description={description} image={image} onClose={() => setOpenModal(false)} />}
+      {openModal && (
+        <ModalView
+          title={title}
+          description={description}
+          image={image}
+          onClose={() => setOpenModal(false)}
+        />
+      )}
     </ProductCard>
   );
 }
