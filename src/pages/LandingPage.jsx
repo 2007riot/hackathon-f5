@@ -1,6 +1,7 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import icon from "../assets/iconoww.jpg";
+import { NavLink } from "react-router-dom";
 
 // import backgroundImageUrl from '../assets/fbg.jpg'
 
@@ -25,9 +26,10 @@ function LandingPage() {
           </p>
         </div>
         <div className="text-center">
-          <button className="bg-blue-300 hover:bg-pink-400 text-black font-bold text-gabriola py-2 px-4 rounded">
+          <NavLink to='/home' ><button className="bg-blue-300 hover:bg-pink-400 text-black font-bold text-gabriola py-2 px-4 rounded">
             Explorar
           </button>
+          </NavLink>
         </div>
       </div>
     </div>
