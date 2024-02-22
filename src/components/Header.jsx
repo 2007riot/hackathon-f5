@@ -45,13 +45,13 @@ function Header() {
         </div>
         <Navbar.Collapse>
           <div className="flex flex-row gap-12">
-            <Navbar.Link href="#" active className="text-base">
+            <Navbar.Link href="/home" active className="text-base">
               Home
             </Navbar.Link>
-            <Navbar.Link to="#" className="text-base">
+            <Navbar.Link to="/home" className="text-base">
               About
             </Navbar.Link>
-            <Navbar.Link href="#" className="text-base">
+            <Navbar.Link href="/contact" className="text-base">
               Contacto
             </Navbar.Link>
           </div>
