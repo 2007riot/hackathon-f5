@@ -11,6 +11,10 @@
   }
 }
 
+.bg-image{
+  background-image: url(src/assets/fbg.jpg);
+}
+
 .animate-float {
   animation: float 3s infinite alternate;
 }
