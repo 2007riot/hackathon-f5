@@ -5,7 +5,7 @@ import { HiMail } from 'react-icons/hi';
 
 function ContactForm() {
     return (
-        <div className="flex max-w-md flex-col gap-4">
+        <div className="flex max-w-md flex-col gap-4 mx-auto">
             <div className="text-white text-2xl">¿Quieres reservar un viaje? Completa este formulario y nos pondremos en contacto contigo.</div>
             <div>
                 <div className="mb-2 block">
