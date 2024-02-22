@@ -6,7 +6,7 @@ function Header() {
     <Navbar  className='w-screen bg-slate-900'>
       <Navbar.Brand href="#">
         <img src="./assets/icono_WW.png" className="mr-3 h-6 sm:h-12" alt="Wander Well Logo" />
-        <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-slate-50">WanderWell</span>
+        <span className="self-center whitespace-nowrap text-2xl font-semibold text-slate-50">WanderWell</span>
       </Navbar.Brand>
       <div className="flex md:order-2 bg-slate-900">
       
