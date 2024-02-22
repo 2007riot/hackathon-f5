@@ -4,7 +4,7 @@ import travel from "../../db/travel";
 
 function TravelCards() {
   return (
-    <div className="flex flex-row flex-wrap">
+    <div className="flex flex-row flex-wrap justify-center">
       {travel.map((travelItem) => (
         // console.log(travelItem)
         <Card
