@@ -40,7 +40,7 @@ function Card({ image, title, description, activities }) {
       >
         Ver más
       </Button>
-      {openModal && <ModalView onClose={() => setOpenModal(false)} />}
+      {openModal && <ModalView title= {title} description={description} image={image} onClose={() => setOpenModal(false)} />}
     </ProductCard>
   );
 }
