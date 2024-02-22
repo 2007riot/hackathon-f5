@@ -1,13 +1,13 @@
 import React from 'react'
 import { Button, Modal, Avatar } from 'flowbite-react';
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 function ModalView() {
-    const [openModal, setOpenModal] = useState(false);
+    const [openModal, setOpenModal] = useState(true);
 
     return (
         <>
-            <Button onClick={() => setOpenModal(true)}>Open Detail Card</Button>
             <Modal className="text-gray-100 dark:text-gray-200" show={openModal} onClose={() => setOpenModal(false)}>
                 <Modal.Header>Machu Picchu</Modal.Header>
                 <Modal.Body className="flex flex-row items-center space-x-2">
@@ -22,7 +22,7 @@ function ModalView() {
                 </Modal.Body>
                 <Modal.Footer>
                     {/* TODO : take the user to contact page */}
-                    <Button onClick={() => setOpenModal(false)} color="purple">Mas info</Button>
+                   <NavLink to='/contact'> <Button color="purple">Mas info</Button> </NavLink>
                 </Modal.Footer>
             </Modal>
         </>

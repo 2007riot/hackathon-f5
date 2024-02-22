@@ -20,7 +20,7 @@ const travel = [
         image: "https://historia.nationalgeographic.com.es/medio/2023/01/25/istock_bc3b04ec_930824730_230125152421_1280x853.jpg"
     },
     {
-        id: 2,
+        id: 12,
         type: "virtual",
         title: "Mundo submarino de coral",
         location: "Realidad virtual",
