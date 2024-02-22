@@ -1,17 +1,18 @@
 import React from "react";
 import Card from "./Card";
-import travel from "db/travel.json";
+import travel from "../../db/travel";
 
 function TravelCards() {
   return (
     <div>
-      {travel.map((travel, index) => (
+      {travel.map((travelItem) => (
+        // console.log(travelItem)
         <Card
-          key={index}
-          image={travel.image}
-          title={travel.title}
-          description={travel.description}
-          activities={travel.activities}
+          key={travelItem.id}
+          image={travelItem.image}
+          title={travelItem.title}
+          description={travelItem.description}
+          activities={travelItem.activities}
         />
       ))}
     </div>
