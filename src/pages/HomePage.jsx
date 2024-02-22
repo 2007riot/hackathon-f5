@@ -8,11 +8,11 @@ function HomePage() {
       <h1>Explorar</h1>
       <div>
         <Card
-          imgSrc="/images/blog/image-4.jpg"
-          title="Noteworthy technology acquisitions 2021"
-          subtitle="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."
-          price="$100"
-          buttonText="Buy Now"
+          imgSrc="src/assets/img/moon-trip.jpeg"
+          title="Fly me to the moon"
+          description="Soñaste pisar la luna? Lo hacemos realidad! Contrata nuestro paquete Full Experience"
+          price="5.000€"
+          buttonText="Más información"
         />
       </div>
     </>
