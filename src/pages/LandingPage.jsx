@@ -23,12 +23,14 @@ function LandingPage() {
           </p>
         </div>
         <div className="text-center">
+          <NavLink to='/home' >
           <Button
             className="bg-purple-500 hover:bg-purple-700 text-white font-bold text-2xl py-2 px-4 w-3/12 rounded-xl mx-auto"
             gradientDuoTone="purpleToBlue"
           >
             Explorar
           </Button>
+         </NavLink>
         </div>
       </div>
     </div>
