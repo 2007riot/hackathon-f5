@@ -1,18 +1,18 @@
 import React from "react";
 import Card from "./Card";
-import travel from "db/travel.js";
+import travel from "../../db/travel";
 
-function TravelCards({ onCardButtonClick }) {
+function TravelCards({ openModal }) {
   return (
     <div className="flex flex-row flex-wrap justify-center">
-      {travel.map((travelItem, index) => (
+      {travel.map((travelItem) => (
         <Card
-          key={index}
+          key={travelItem.id}
           image={travelItem.image}
           title={travelItem.title}
           description={travelItem.description}
           activities={travelItem.activities}
-          onButtonClick={onCardButtonClick}
+          openModal={openModal}
         />
       ))}
     </div>
@@ -20,4 +20,3 @@ function TravelCards({ onCardButtonClick }) {
 }
 
 export default TravelCards;
-

@@ -1,6 +1,7 @@
 import React from "react";
 import icon from "../assets/iconoww.jpg";
 import { Button } from "flowbite-react";
+import { NavLink } from "react-router-dom";
 
 function LandingPage() {
   const backgroundImageUrl = "../assets/fbg.jpg";
