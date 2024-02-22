@@ -1,5 +1,6 @@
-import { Footer } from '../components/Footer'
+import Footer from '../components/Footer'
 import React from 'react'
+import ModalView from '../components/ModalView'
 
 function HomePage() {
   return (
