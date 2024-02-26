@@ -1,0 +1,87 @@
+[
+    {
+      "username": "Juan Perez",
+      "email": "juan@example.com",
+      "role": "usuario",
+      "intereses": ["playas", "aventura"],
+      "location": "México",
+      "phone": "1234567890"
+    },
+    {
+      "username": "Maria Rodriguez",
+      "email": "maria@example.com",
+      "role": "usuario",
+      "intereses": ["montañas", "senderismo"],
+      "location": "España",
+      "phone": "9876543210"
+    },
+    {
+      "username": "Luis Gonzalez",
+      "email": "luis@example.com",
+      "role": "usuario",
+      "intereses": ["ciudades", "cultura"],
+      "location": "Argentina",
+      "phone": "1112223333"
+    },
+    {
+      "username": "Ana Martinez",
+      "email": "ana@example.com",
+      "role": "usuario",
+      "intereses": ["naturaleza", "ecoturismo"],
+      "location": "Colombia",
+      "phone": "4445556666"
+    },
+    {
+      "username": "Pedro Sanchez",
+      "email": "pedro@example.com",
+      "role": "usuario",
+      "intereses": ["historia", "arqueología"],
+      "location": "Perú",
+      "phone": "7778889999"
+    },
+    {
+      "username": "Laura Ramirez",
+      "email": "laura@example.com",
+      "role": "Empresa",
+      "location": "México",
+      "phone": "1231231234",
+      "company": "Travel Adventures MX",
+      "type": "Paquetes todo incluido"
+    },
+    {
+      "username": "Carlos Lopez",
+      "email": "carlos@example.com",
+      "role": "Empresa",
+      "location": "España",
+      "phone": "4564564567",
+      "company": "Trekking Iberia",
+      "type": "Excursiones de montaña"
+    },
+    {
+      "username": "Sofia Fernandez",
+      "email": "sofia@example.com",
+      "role": "Empresa",
+      "location": "Argentina",
+      "phone": "7897897890",
+      "company": "Cultural Expeditions AR",
+      "type": "Tours culturales"
+    },
+    {
+      "username": "Diego Garcia",
+      "email": "diego@example.com",
+      "role": "Empresa",
+      "location": "Colombia",
+      "phone": "1112223333",
+      "company": "EcoTours CO",
+      "type": "Ecoturismo responsable"
+    },
+    {
+      "username": "Andrea Navarro",
+      "email": "andrea@example.com",
+      "role": "Empresa",
+      "location": "Perú",
+      "phone": "4445556666",
+      "company": "Inca Adventures",
+      "type": "Turismo arqueológico"
+    }
+  ]
